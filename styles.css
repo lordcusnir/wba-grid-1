@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "a b c"
+        "a d e" 
+        "f g g";
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 50px 40px;
+    font-size: medium;
+    text-align: left;
+    background-color: rgb(84, 148, 194);
+    box-shadow: 15px 10px 0px 2px rgba(0,0,0,0.2); 
+}
+
+.grid-item-1 {
+    grid-area: a;
+}
+.grid-item-2 {
+    grid-area: b;
+}
+.grid-item-3 {
+    grid-area: c;
+}
+.grid-item-4 {
+    grid-area: d;
+}
+.grid-item-5 {
+    grid-area: e;
+}
+.grid-item-6 {
+    grid-area: f;
+}
+.grid-item-7 {
+    grid-area: g;
+}
+
